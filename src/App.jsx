@@ -5,7 +5,6 @@ import DeleteModal from "./components/DeleteModal";
 import UpdateModal from "./components/UpdateModal";
 
 const App = () => {
-  // const[todo, setTodo]=useState([])
   const [todo, setTodo] = useState(() => {
     const savedTodos = localStorage.getItem("todos");
     return savedTodos ? JSON.parse(savedTodos) : [];
