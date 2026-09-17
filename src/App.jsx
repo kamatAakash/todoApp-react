@@ -61,18 +61,6 @@ const App = () => {
     setTodoToEdit(null);
   }
   
-
-  // function confirmEdit(newTitle) {
-  //   setTodo(
-  //     todo.map((item) =>
-  //       item.id === todoToEdit.id ? { ...item, title: newTitle } : item,
-  //     ),
-  //   );
-  //   setEditModal(false);
-  //   setTodoToEdit(null);
-  // }
-
-
 function confirmEdit(newTitle) {
   newTitle = newTitle.trim();
 
